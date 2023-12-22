@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: "/vite-deploy/",
+  base: "/vue-todo-app/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
